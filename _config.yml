@@ -33,13 +33,7 @@ components:
         limit: 5
     # 文章字数统计
     word_count:
-        enabled: true
-    # 页面右上角，以及「关于」页面的二维码
-    # 修改图片请替换 assets/images/qrcode.jpg
-    qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
-    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
+        enabled: true  
     wiki:
         view: cate
 # 压缩页面内容
@@ -62,14 +56,6 @@ navs:
   -
     href: /categories/
     label: 分类
-
-#   -
-#     href: /archives/
-#     label: 归档
-
-#   -
-#     href: /open-source/
-#     label: 开源
 
 
 # ---------------- #
@@ -112,7 +98,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username: whirgrunt
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: whirgrunt
